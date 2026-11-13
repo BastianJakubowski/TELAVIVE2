@@ -1,0 +1,107 @@
+{
+    "version": 1,
+    "name": "New Actions",
+    "maps": [
+        {
+            "name": "ViveLeftHand",
+            "id": "41128fda-443a-4132-8054-9cd47619aef1",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "e113175a-cd0c-4e9b-bbd9-2365d9fade4d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "bc79bd35-d60d-48eb-8283-6086829e3c0f",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "506f3297-26e1-4a04-a571-3a3bf2dca297",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "89469273-890b-4bff-8ddf-2600fa378dc2",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ViveRightHand",
+            "id": "9a8d839a-ec91-471b-bfc6-ba5b1371e5f3",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "2cdfddc7-bcd2-4264-a8fb-1259f2e7af4d",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "37fb4c21-cab3-4d15-b44f-983c1a7dad08",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "747caa0e-2464-41cf-9e5a-6a26d75c1a23",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ef0aa13-5793-4301-bb79-d906059deb26",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
